@@ -1,6 +1,7 @@
  
 FROM busybox
 RUN wget https://somewebsite.com/bash/hello.sh | bash
+RUN wget https://somewebsite.com/bash/hello.sh | bash
 
 
 FROM busybox
